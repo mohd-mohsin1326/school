@@ -1,7 +1,7 @@
 package com.example.school.model;
 
 public class Student {
-
+    // user data
     private int studentId;
     private String studentName;
     private String gender;
@@ -14,7 +14,8 @@ public class Student {
         this.gender = gender;
         this.standard = standard;
     }
-    //getters setters
+
+    // getters setters
     public int getStudentId() {
         return studentId;
     }
