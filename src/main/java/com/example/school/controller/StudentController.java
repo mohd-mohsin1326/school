@@ -13,6 +13,7 @@ public class StudentController {
     @Autowired
     private StudentH2Service studentService;
 
+    // api calls
     @GetMapping("/students")
     public ArrayList<Student> getStudents() {
         return studentService.getStudents();

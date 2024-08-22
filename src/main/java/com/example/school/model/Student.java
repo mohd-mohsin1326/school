@@ -14,7 +14,7 @@ public class Student {
         this.gender = gender;
         this.standard = standard;
     }
-
+    //getters setters
     public int getStudentId() {
         return studentId;
     }
